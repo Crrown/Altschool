@@ -15,7 +15,7 @@ const assignment = {};
  */
  
  
-function sumOfNumbers(arrayOfNumbers) {
+function sumOfNumbers(numbers) {
   const sum=numbers.reduce((arr,curr)=> {
     arr +=curr;
   return arr;
@@ -25,7 +25,7 @@ function sumOfNumbers(arrayOfNumbers) {
   
 assignment.sumOfNumbers = sumOfNumbers;
 
-const arrayOfNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
 // assignment.sumOfNumbers = sumOfNumbers;
 
 /**
